@@ -1,31 +1,42 @@
-# StaffSync - HR & Employee Management System
+# StaffSync Studio — Enterprise Talent & HR Operations Platform
 
-StaffSync is a full-stack MERN application for Human Resource and Employee Management, featuring Role-Based Access Control (Admin, Manager, Employee), Leave Management, Attendance Tracking, Announcements, and an analytics dashboard.
+**StaffSync Studio** is an enterprise-grade full-stack Human Resource Management platform engineered with React, Tailwind CSS, Node.js, Express, and MongoDB.
 
 ---
 
-## Quick Start
+## 🎨 Design & UI/UX Features
+
+- **StaffSync Studio Aesthetic**: Modern royal indigo & deep slate theme with subtle gradient backdrops and glassmorphism.
+- **Enterprise Command Center**: Live presence punch widget with real-time digital clock, shift states, and KPI metric cards.
+- **Personnel Directory**: Roster with department filtering chips, search, and full CRUD modal controls.
+- **Leave Management Hub**: Interactive category filing (Annual, Sick, Casual, Maternity, Unpaid) with role-scoped workflows.
+- **Time & Presence Engine**: Timestamped clock in/out with automated shift duration and late detection.
+- **Broadcast Bulletins Feed**: Company-wide announcements with priority indicators.
+
+---
+
+## 🚀 Quick Start
 
 ### 1. Running Both Services
 
-You can launch both server and client together by double-clicking `start.bat` or running:
+Launch both server and client together by double-clicking `start.bat` or executing:
 
 ```powershell
-# In one terminal (Backend):
+# Terminal 1 — Backend API & Database
 cd server
 npm start
 
-# In another terminal (Frontend):
+# Terminal 2 — Frontend Application
 cd client
 npm run dev
 ```
 
-- **Frontend App**: [http://localhost:5173](http://localhost:5173)
-- **Backend API**: [http://localhost:5000](http://localhost:5000)
+- **Frontend Application**: [http://localhost:5173](http://localhost:5173)
+- **Backend REST API**: [http://localhost:5000](http://localhost:5000)
 
 ---
 
-## Pre-seeded Demo Accounts
+## 🔑 Pre-seeded Demo Accounts
 
 | Role | Email | Password |
 |---|---|---|
@@ -35,9 +46,9 @@ npm run dev
 
 ---
 
-## Running Automated Tests
+## 🧪 Automated Test Suite
 
-To run the backend test suite:
+Run the comprehensive backend Jest test suite:
 
 ```powershell
 cd server
